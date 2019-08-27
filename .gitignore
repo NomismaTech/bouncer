@@ -5,3 +5,5 @@ scratch/
 *.iml
 *.ipr
 /out/
+
+pkg/

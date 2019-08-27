@@ -50,6 +50,9 @@ var RootCmd = &cobra.Command{
 		case "serial":
 			log.SetFormatter(&log.TextFormatter{})
 			log.SetOutput(os.Stdout)
+		case "demolish":
+			log.SetFormatter(&log.TextFormatter{})
+			log.SetOutput(os.Stdout)
 		}
 	},
 	RunE: func(cmd *cobra.Command, args []string) error {
