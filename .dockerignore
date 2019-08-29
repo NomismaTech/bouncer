@@ -1,0 +1,9 @@
+build/
+dist/
+scratch/
+.idea/
+*.iml
+*.ipr
+/out/
+
+pkg/
