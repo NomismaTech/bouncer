@@ -11,3 +11,6 @@ run:
 build:
 	go build -o pkg/bouncer main/main.go
 	chmod +x pkg/bouncer
+
+build-docker:
+	docker build -t bouncer:0.0.1 .
